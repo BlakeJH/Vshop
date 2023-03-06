@@ -1,0 +1,13 @@
+name: VSHOP
+version: '${project.version}'
+main: blake_jh.vshop.VSHOP
+api-version: 1.19
+authors: [ Blake_JH ]
+description: A server store plugin developed by Blake_JH.
+commands:
+  store:
+    description: sends the url to the server store to the the command sender.
+    usage: /store
+    aliases: store
+    permission: vitalize.store
+
